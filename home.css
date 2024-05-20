@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: grid;
+    place-items: center;
+    z-index: 9;
+    margin-top: 12vh;
+}
+
+body{
+    background-image: url(lake\ taho.jpg);
+    background-size: cover, contain;
+}
+
+.navbar p{
+    font-size: 10vh;
+    font-family: fantasy;
+    color: white;
+}
+
+main{
+    display: grid;
+    place-items: center;
+}
+
+main p{
+    color: white;
+    font-size: 4vh;
+    font-family: sans-serif;
+    margin-top: 18vh;
+}
